@@ -124,9 +124,7 @@ li {
 /*
 2本目の線の位置を設定
 */
-.toggle_btn span;
-
-:nth-child(2) {
+.toggle_btn span:nth-child(2) {
     bottom: 10px;
 }
 
