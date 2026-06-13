@@ -37,3 +37,35 @@ li {
 /*
 コンテンツ幅を設定するための共通クラス
 */
+.wrapper {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.content {
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.site-title a {
+    width: 180px;
+    line-height: 1px;
+    display: block;
+}
+
+.page-title {
+    font-size: 0.0875rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+/*
+「position: fixed;」でヘッダーを固定し、「z-index: 10;」で前面に表示
+※他のコンテンツでpositionをrelative、absolute、fixedのいずれかに
+設定している場合は、z-indexの数値が大きい方が前面に表示される
+*/
