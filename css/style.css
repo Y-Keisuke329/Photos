@@ -176,3 +176,42 @@ li {
 /*-------------------------------------------
 TOP、PRODUCTS
 -------------------------------------------*/
+#top {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+/*
+vertical-align: top;
+画像の下にできる隙間を消す
+*/
+.product-list img {
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.product-list p {
+    font-size: 0.75rem;
+}
+
+.link-text {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination li {
+    padding: 0 20px;
+}
