@@ -240,3 +240,14 @@ vertical-align: top;
 .pagination li {
     padding: 0 20px;
 }
+
+/*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+#footer {
+    flex-direction: column;
+}
+
+#footer .menu {
+    margin-bottom: 5px;
+}
