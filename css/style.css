@@ -242,12 +242,55 @@ vertical-align: top;
 }
 
 /*-------------------------------------------
-  フッター
-  -------------------------------------------*/
+フッター
+-------------------------------------------*/
+/*
+「position: absolute;」を設定して、フッター位置を画面下に設定
+「left: 0;」「right: 0;」で中央に配置
+*/
 #footer {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
 }
 
 #footer .menu {
-    margin-bottom: 5px;
+    display: flex;
+}
+
+#footer .menu li {
+    font-size: 0.75rem;
+    margin-right: 30px;
+}
+
+#footer .copyright {
+    font-size: 0.625rem;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 900px) {
+
+    /*-------------------------------------------
+  TOP、PRODUCTS
+  -------------------------------------------*/
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+
+    /*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+    #footer {
+        flex-direction: column;
+    }
+
+    #footer .menu {
+        margin-bottom: 5px;
+    }
 }
