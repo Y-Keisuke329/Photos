@@ -242,6 +242,24 @@ vertical-align: top;
 }
 
 /*-------------------------------------------
+ITEM
+-------------------------------------------*/
+#item {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+#item .item-text {
+    width: 42%;
+}
+
+/*
+text-align: justify;
+テキストの両端を揃える
+*/
+/*-------------------------------------------
 ABOUT
 -------------------------------------------*/
 #about {
