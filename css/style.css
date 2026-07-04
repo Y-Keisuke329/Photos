@@ -259,6 +259,28 @@ ITEM
 text-align: justify;
 テキストの両端を揃える
 */
+#item .item-text p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#item .item-text dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#item .item-text dt {
+    width: 30%;
+}
+
+#item .item-text dd {
+    width: 70%;
+}
+
+#item .item-img {
+    width: 50%;
+}
+
 /*-------------------------------------------
 ABOUT
 -------------------------------------------*/
