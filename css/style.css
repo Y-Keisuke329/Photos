@@ -296,6 +296,47 @@ ABOUT
 /*-------------------------------------------
 COMPANY
 -------------------------------------------*/
+#company {
+    max-width: 600px;
+}
+
+#company dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#company dt {
+    width: 30%;
+    border-bottom: solid 1px #dcdbab;
+    padding: 20px 10px;
+}
+
+#company dt:last-of-type {
+    border-bottom: none;
+}
+
+#company dd {
+    width: 70%;
+    border-bottom: solid 1px #dcdbab;
+    padding: 20px 10px;
+}
+
+#company dd:last-of-type {
+    border-bottom: none;
+}
+
+#company .map {
+    /* グーグルマップをグレースケールにする */
+    filter: grayscale(1);
+}
+
+/* グーグルマップのサイズを設定 */
+#company .map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
 
 /*-------------------------------------------
 フッター
