@@ -396,6 +396,23 @@ SP
         margin-bottom: 30px;
     }
 
+    /*-------------------------------------------
+  COMPANY
+  -------------------------------------------*/
+    #company dl {
+        flex-direction: column;
+
+        #company dt {
+            width: 100%;
+            border-bottom: none;
+            padding-bottom: 5px;
+        }
+
+        #company dd {
+            width: 100%;
+            padding-top: 5px;
+        }
+    }
 
     /*-------------------------------------------
   フッター
