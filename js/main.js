@@ -3,7 +3,7 @@ $(function () {
  ハンバーガーメニュー
  ===================================================*/
     // ハンバーガーメニューのクリックイベント
-    $('toggle_btn').on('click', function () {
+    $('.toggle_btn').on('click', function () {
         // #headerにopenクラスが存在する場合
         if ($('header').hasClass('open')) {
             // openクラスを削除
