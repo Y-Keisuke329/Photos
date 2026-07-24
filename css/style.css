@@ -281,6 +281,40 @@ text-align: justify;
     width: 50%;
 }
 
+/*カルーセル*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 960px;
+}
+
+.carousel {
+    display: flex;
+    transform: translateX(0);
+}
+
+.carousel__button-left,
+.carousel__button-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel__button-left {
+    left: 5%;
+}
+
+.carousel__button-right {
+    right: 5%;
+}
+
 /*-------------------------------------------
 ABOUT
 -------------------------------------------*/
