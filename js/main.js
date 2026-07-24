@@ -24,4 +24,30 @@ $(function () {
         $('header').removeClass('open');
     });
 });
+/*=================================================
+カルーセル
+===================================================*/
+let current = 0
+const carousel = document.querySelector('.carousel')
+const carousels = document.querySelectorAll('.carousel__section')
+const total = carousels.length
 
+function showSection() {
+    carousel.style.transform = `translateX(${-current * 100}%)`
+}
+
+function prevSection() {
+    current = current === 0 ? total - 1 : current - 1
+    showSection()
+}
+
+function nextSection() {
+    current = (current + 1) % total
+    showSection()
+}
+
+const btnLeft = document.querySelector('.carousel__button-left')
+const btnRight = document.querySelector('.carousel__button-right')
+
+btnLeft.addEventListener('click', prevSection)
+btnRight.addEventListener('click', nextSection)
