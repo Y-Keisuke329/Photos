@@ -283,7 +283,7 @@ text-align: justify;
 
 /*カルーセル*/
 img {
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
 }
 
