@@ -249,7 +249,6 @@ ITEM
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-    flex-direction: column;
 }
 
 #item .item-text {
