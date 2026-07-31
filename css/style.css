@@ -284,8 +284,8 @@ text-align: justify;
 
 /* グーグルマップのサイズを設定 */
 #item .item-map iframe {
-    width: 100px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     border: 0;
 }
 
