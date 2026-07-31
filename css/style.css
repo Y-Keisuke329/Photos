@@ -282,11 +282,6 @@ text-align: justify;
     width: 50%;
 }
 
-#item .item-map {
-    /* グーグルマップをグレースケールにする */
-    filter: grayscale(1);
-}
-
 /* グーグルマップのサイズを設定 */
 #item .item-map iframe {
     width: 100%;
@@ -376,11 +371,6 @@ COMPANY
 
 #company dd:last-of-type {
     border-bottom: none;
-}
-
-#company .map {
-    /* グーグルマップをグレースケールにする */
-    filter: grayscale(1);
 }
 
 /* グーグルマップのサイズを設定 */
