@@ -255,9 +255,9 @@ ITEM
     width: 42%;
 }
 
-.infomation {
+.item-text .infomation {
     width: 100%;
-    display: block;
+    max-width: 600px;
 }
 
 /*
