@@ -262,7 +262,7 @@ text-align: justify;
 /*写真の情報*/
 #item .item-text p {
     margin-bottom: 30px;
-
+    text-align: justify;
 }
 
 #item .item-text dl {
