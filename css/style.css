@@ -282,6 +282,18 @@ text-align: justify;
     width: 50%;
 }
 
+#item .item-map {
+    /* グーグルマップをグレースケールにする */
+    filter: grayscale(1);
+}
+
+/* グーグルマップのサイズを設定 */
+#item .item-map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
 /*カルーセル*/
 img {
     max-width: 100%;
