@@ -255,6 +255,11 @@ ITEM
     width: 42%;
 }
 
+.infomation {
+    width: 100%;
+    display: block;
+}
+
 /*
 text-align: justify;
 テキストの両端を揃える
