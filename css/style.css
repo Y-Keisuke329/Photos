@@ -282,7 +282,7 @@ text-align: justify;
     width: 50%;
 }
 
-/* グーグルマップのサイズを設定 */
+/* グーグルマップのサイズを設定 
 #item .item-map iframe {
     width: 400px;
     height: 200px;
