@@ -255,11 +255,6 @@ ITEM
     width: 42%;
 }
 
-.item-text .infomation {
-    width: 100%;
-    max-width: 900px;
-}
-
 /*
 text-align: justify;
 テキストの両端を揃える
