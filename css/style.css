@@ -262,7 +262,7 @@ text-align: justify;
 /*写真の情報*/
 #item .item-text p {
     margin-bottom: 30px;
-    text-align: justify;
+
 }
 
 #item .item-text dl {
@@ -280,25 +280,6 @@ text-align: justify;
 
 #item .item-img {
     width: 50%;
-}
-
-/*写真の説明*/
-#item-info .photos-info {
-    margin-bottom: 30px;
-    text-align: justify;
-}
-
-#item-info .photos-info dl {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#item-info .photos-info dt {
-    width: 30%;
-}
-
-#item-info .photos-info dd {
-    width: 70%;
 }
 
 /*カルーセル*/
