@@ -54,6 +54,7 @@ btnRight.addEventListener('click', nextSection)
 /*キーボード操作*/
 function handleKeyDown(event) {
     if (isAnimation) return
+
     if (event.key === 'ArrowLeft') {
         prevSection() /*prevSection()を実行*/
     } else if (event.key === 'ArrowRight') {
