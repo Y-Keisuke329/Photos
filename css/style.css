@@ -255,6 +255,10 @@ ITEM
     width: 42%;
 }
 
+.item-text ul {
+    margin-bottom: 30px;
+}
+
 /*
 text-align: justify;
 テキストの両端を揃える
