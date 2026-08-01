@@ -282,20 +282,6 @@ text-align: justify;
     width: 50%;
 }
 
-/*写真の説明*/
-#item .item-info dl {
-    display: block;
-    flex-wrap: wrap;
-}
-
-#item .item-info dt {
-    width: 30%;
-}
-
-#item .item-info dd {
-    width: 70%;
-}
-
 /* グーグルマップのサイズを設定 */
 #item .item-map iframe {
     width: 100%;
