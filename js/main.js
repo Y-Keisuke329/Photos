@@ -34,6 +34,10 @@ const carousels = document.querySelectorAll('.carousel__section')
 const total = carousels.length
 
 function showSection() {
+    carousel.addEventListener('transitionend', () => {
+        isAnimation = false
+    })
+    isAnimation = true
     carousel.style.transform = `translateX(${-current * 100}%)`
 }
 
