@@ -28,6 +28,7 @@ $(function () {
 カルーセル
 ===================================================*/
 let current = 0
+let isAnimation = false
 const carousel = document.querySelector('.carousel')
 const carousels = document.querySelectorAll('.carousel__section')
 const total = carousels.length
