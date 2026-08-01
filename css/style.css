@@ -255,8 +255,8 @@ ITEM
     width: 42%;
 }
 
-.item-text ul {
-    margin-bottom: 20px;
+.item-text li {
+    margin-bottom: 13px;
 }
 
 .item-text dd {
