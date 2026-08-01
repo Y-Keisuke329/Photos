@@ -308,11 +308,21 @@ img {
     transition: transform 0.5s ease-in-out;
 }
 
-.carousel__button-left,
-.carousel__button-right {
+.carousel__button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    font-size: 24px;
     cursor: pointer;
 }
 
@@ -322,6 +332,10 @@ img {
 
 .carousel__button-right {
     right: 5%;
+}
+
+.carousel__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .carousel__section {
