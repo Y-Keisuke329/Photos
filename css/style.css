@@ -260,8 +260,9 @@ text-align: justify;
 テキストの両端を揃える
 */
 /*写真の情報*/
-#item .item-text ul {
+#item .item-text p {
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 #item .item-text dl {
