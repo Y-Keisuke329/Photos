@@ -256,7 +256,11 @@ ITEM
 }
 
 .item-text ul {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.item-text dd {
+    margin-bottom: 20px;
 }
 
 /*
