@@ -220,6 +220,7 @@ vertical-align: top;
     margin-bottom: 10px;
     vertical-align: top;
     height: 200px;
+    width: 300px;
     object-fit: cover;
 }
 
