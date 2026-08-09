@@ -67,8 +67,8 @@ function handleKeyDown(event) {
     }
 }
 document.addEventListener('keydown', handleKeyDown)
-/*3秒経ったらスクロール*/
+/*6秒経ったらスクロール*/
 setInterval(() => {
     if (isAnimation) return
     nextSection()/*nextSection()を実行*/
-}, 6000)
+}, 6000)/*6000ミリ秒*/
