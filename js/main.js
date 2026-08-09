@@ -71,4 +71,4 @@ document.addEventListener('keydown', handleKeyDown)
 setInterval(() => {
     if (isAnimation) return
     nextSection()/*nextSection()を実行*/
-}, 3000)
+}, 6000)
