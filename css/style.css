@@ -291,7 +291,6 @@ text-align: justify;
 
 #item .item-img {
     width: 60%;
-    border: 3px solid #000;
 }
 
 /* グーグルマップのサイズを設定 */
@@ -305,6 +304,7 @@ text-align: justify;
 img {
     max-width: 100%;
     height: auto;
+    border: 3px solid #000;
 }
 
 .carousel-outer {
