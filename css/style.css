@@ -219,9 +219,6 @@ vertical-align: top;
 .product-list img {
     margin-bottom: 10px;
     vertical-align: top;
-    height: 250px;
-    width: 300px;
-    object-fit: cover;
 }
 
 .product-list p {
