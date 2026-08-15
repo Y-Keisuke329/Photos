@@ -304,7 +304,7 @@ text-align: justify;
 img {
     max-width: 100%;
     height: auto;
-    border: 3px solid #000;
+    border: 1px solid #000;
 }
 
 .carousel-outer {
