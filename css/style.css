@@ -290,7 +290,8 @@ text-align: justify;
 }
 
 #item .item-img {
-    width: 50%;
+    width: 60%;
+    border: 1px solid #000;
 }
 
 /* グーグルマップのサイズを設定 */
