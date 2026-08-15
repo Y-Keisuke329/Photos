@@ -301,7 +301,7 @@ text-align: justify;
 }
 
 /*カルーセル*/
-img {
+img .carousel__section {
     max-width: 100%;
     height: auto;
     border: 1px solid #000;
