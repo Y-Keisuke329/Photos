@@ -248,7 +248,7 @@ vertical-align: top;
 ITEM
 -------------------------------------------*/
 #item {
-    max-width: 800px;
+    max-width: 500px;
     height: 324px;
     display: flex;
     justify-content: space-between;
