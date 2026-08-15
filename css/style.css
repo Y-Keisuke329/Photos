@@ -230,7 +230,7 @@ vertical-align: top;
 
 .link-text {
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -248,10 +248,9 @@ vertical-align: top;
 ITEM
 -------------------------------------------*/
 #item {
-    max-width: 800px;
+    max-width: 600px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     margin-bottom: 60px;
 }
 
