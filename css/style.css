@@ -462,6 +462,9 @@ SP
     .product-list {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px 20px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
     }
 
     /*-------------------------------------------
