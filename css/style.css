@@ -308,7 +308,7 @@ img {
 
 .carousel-outer {
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     width: 100%;
     max-width: 400px;
 }
