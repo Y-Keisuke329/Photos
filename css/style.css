@@ -300,11 +300,25 @@ text-align: justify;
     border: 0;
 }
 
+/*サムネイル画像*/
+.carousel-thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.carousel-thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
 /*カルーセル*/
 img .carousel__section {
     max-width: 100%;
     height: auto;
-    border: 3px solid #000;
 }
 
 .carousel-outer {
