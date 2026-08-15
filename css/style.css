@@ -255,7 +255,7 @@ ITEM
 }
 
 #item .item-text {
-    width: 42%;
+    width: 40%;
 }
 
 .item-text li {
@@ -324,7 +324,7 @@ text-align: justify;
 .carousel-outer {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 55%;
     max-width: 400px;
 }
 
