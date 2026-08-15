@@ -308,7 +308,7 @@ img {
 
 .carousel-outer {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     width: 100%;
     max-width: 400px;
 }
@@ -339,11 +339,11 @@ img {
 }
 
 .carousel__button-left {
-    left: 5%;
+    left: -20%;
 }
 
 .carousel__button-right {
-    right: 5%;
+    right: -20%;
 }
 
 .carousel__button:hover {
