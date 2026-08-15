@@ -251,6 +251,7 @@ ITEM
     max-width: 800px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 60px;
 }
 
