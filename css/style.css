@@ -267,10 +267,7 @@ ITEM
     margin-bottom: 10px;
 }
 
-/*
-text-align: justify;
-テキストの両端を揃える
-*/
+/* text-align: justify; テキストの両端を揃える */
 /*写真の情報*/
 #item .item-text p {
     margin-bottom: 30px;
@@ -324,14 +321,13 @@ text-align: justify;
 
 .carousel-outer {
     position: relative;
-
+    overflow: hidden;
     width: 55%;
     max-width: 400px;
 }
 
 .carousel {
     display: flex;
-    overflow: hidden;
     transform: translateX(0);
     transition: transform 0.5s ease-in-out;
     /*0.5秒かけて次の画像*/
@@ -341,16 +337,12 @@ text-align: justify;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
     width: 40px;
     height: 40px;
-
     border: none;
     border-radius: 50%;
-
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-
     font-size: 24px;
     cursor: pointer;
 }
