@@ -248,8 +248,8 @@ vertical-align: top;
 ITEM
 -------------------------------------------*/
 #item {
-    max-width: 500px;
-    height: 324px;
+    max-width: 800px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -315,7 +315,7 @@ ITEM
 
 /*カルーセル*/
 .carousel__section img {
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
 }
 
