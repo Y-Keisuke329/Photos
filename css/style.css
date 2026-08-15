@@ -314,7 +314,7 @@ ITEM
 
 /*カルーセル*/
 .carousel__section img {
-    max-width: 100%;
+    max-width: 150%;
     height: auto;
 }
 
