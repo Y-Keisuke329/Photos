@@ -256,8 +256,7 @@ ITEM
 }
 
 #item .item-text {
-    width: 40%;
-    margin-left: 30px;
+    width: 30%;
 }
 
 .item-text li {
@@ -266,6 +265,11 @@ ITEM
 
 .item-text dd {
     margin-bottom: 10px;
+}
+
+.item-text ul {
+    width: 500px;
+    margin-left: 40px;
 }
 
 /* text-align: justify; テキストの両端を揃える */
@@ -278,14 +282,17 @@ ITEM
 #item .item-text dl {
     display: flex;
     flex-wrap: wrap;
+    width: 300px;
 }
 
 #item .item-text dt {
-    width: 30%;
+    width: 50%;
+    margin-left: 40px;
 }
 
 #item .item-text dd {
-    width: 70%;
+    width: 60%;
+    margin-left: 40px;
 }
 
 #item .item-img {
@@ -297,6 +304,7 @@ ITEM
     width: 100%;
     height: 200px;
     border: 0;
+    margin-left: 40px;
 }
 
 /*サムネイル画像*/
