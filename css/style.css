@@ -257,6 +257,7 @@ ITEM
 
 #item .item-text {
     width: 40%;
+    margin-left: 30px;
 }
 
 .item-text li {
@@ -323,7 +324,7 @@ ITEM
 .carousel-outer {
     position: relative;
     overflow: hidden;
-    width: 55%;
+    width: 70%;
     max-width: 500px;
 }
 
