@@ -269,7 +269,7 @@ ITEM
 
 .item-text ul {
     width: 500px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .link-text {
@@ -292,7 +292,7 @@ ITEM
 
 #item .item-text dt {
     width: 80px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #item .item-text dd {
@@ -309,21 +309,6 @@ ITEM
     height: 200px;
     border: 0;
     margin-left: 40px;
-}
-
-/*サムネイル画像*/
-.carousel-thumbnails {
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
-}
-
-.carousel-thumbnails img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border: 1px solid #000;
-    cursor: pointer;
 }
 
 /*カルーセル*/
