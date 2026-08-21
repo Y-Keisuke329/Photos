@@ -291,13 +291,12 @@ ITEM
 }
 
 #item .item-text dt {
-    width: 50%;
+    width: 80px;
     margin-left: 40px;
 }
 
 #item .item-text dd {
-    width: 60%;
-    margin-left: 40px;
+    width: 50%;
 }
 
 #item .item-img {
