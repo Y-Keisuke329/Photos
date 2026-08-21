@@ -272,6 +272,11 @@ ITEM
     margin-left: 40px;
 }
 
+.link-text {
+    width: 100px;
+    margin: 0 auto;
+}
+
 /* text-align: justify; テキストの両端を揃える */
 /*写真の情報*/
 #item .item-text p {
