@@ -32,15 +32,23 @@ let isAnimation = false
 const carousel = document.querySelector('.carousel')
 const carousels = document.querySelectorAll('.carousel__section')
 const total = carousels.length
+// サムネイルの要素をすべて取得
+const thumbnails = document.querySelectorAll('.carousel-thumbnails img')
 
 function showSection() {
     carousel.addEventListener('transitionend', () => {
         isAnimation = false
-    })
+    }, { once: ture })
     isAnimation = true
     carousel.style.transform = `translateX(${-current * 100}%)`
 }
-
+thumbnails.forEach((thumbnail, index) => {
+    if (index === current) {
+        thumbnail.classList.add('active')
+    } else {
+        thumbnail.classList.remove('active')
+    }
+})
 function prevSection() {
     current = current === 0 ? total - 1 : current - 1
     showSection()
@@ -56,6 +64,20 @@ const btnRight = document.querySelector('.carousel__button-right')
 
 btnLeft.addEventListener('click', prevSection)
 btnRight.addEventListener('click', nextSection)
+thumbnails.forEach((thumbnail) => {
+    thumbnail.addEventListener('click', () => {
+        if (isAnimation) return
+
+        // thumbnail からdata-index を取得する
+        const index = parseInt(thumbnail.getAttribute('data-index'), 10)
+
+        // すでに表示中の画像なら何もしない
+        if (current === index) return
+
+        current = index
+        showSection()
+    })
+})
 /*キーボード操作*/
 function handleKeyDown(event) {
     if (isAnimation) return
