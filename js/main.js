@@ -32,13 +32,15 @@ let isAnimation = false
 const carousel = document.querySelector('.carousel')
 const carousels = document.querySelectorAll('.carousel__section')
 const total = carousels.length
+
 function showSection() {
     carousel.addEventListener('transitionend', () => {
         isAnimation = false
-    }, { once: ture })
+    })
     isAnimation = true
     carousel.style.transform = `translateX(${-current * 100}%)`
 }
+
 function prevSection() {
     current = current === 0 ? total - 1 : current - 1
     showSection()
@@ -54,8 +56,6 @@ const btnRight = document.querySelector('.carousel__button-right')
 
 btnLeft.addEventListener('click', prevSection)
 btnRight.addEventListener('click', nextSection)
-thumbnails.forEach((thumbnail) => {
-})
 /*キーボード操作*/
 function handleKeyDown(event) {
     if (isAnimation) return
