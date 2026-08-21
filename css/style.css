@@ -317,6 +317,7 @@ ITEM
 .carousel__section img {
     max-width: 500px;
     height: auto;
+    border: 1px solid #000;
 }
 
 .carousel-outer {
@@ -335,6 +336,7 @@ ITEM
 
 .carousel__button {
     position: absolute;
+    top: 50%;
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
