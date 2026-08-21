@@ -317,7 +317,7 @@ ITEM
 .carousel__section img {
     max-width: 500px;
     height: auto;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 .carousel-outer {
