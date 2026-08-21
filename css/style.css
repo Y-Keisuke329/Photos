@@ -315,13 +315,6 @@ ITEM
     transition: opacity 0.3s, border 0.3s;
 }
 
-.carousel-thumbnails img.active {
-    border: 3px solid #333;
-    /* 枠線を太く・濃く */
-    opacity: 1;
-    /* はっきり表示 */
-}
-
 /*カルーセル*/
 .carousel__section img {
     max-width: 500px;
