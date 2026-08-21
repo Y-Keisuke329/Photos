@@ -311,13 +311,22 @@ ITEM
     object-fit: cover;
     border: 1px solid #000;
     cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s, border 0.3s;
+}
+
+.carousel-thumbnails img.active {
+    border: 3px solid #333;
+    /* 枠線を太く・濃く */
+    opacity: 1;
+    /* はっきり表示 */
 }
 
 /*カルーセル*/
 .carousel__section img {
     max-width: 500px;
     height: auto;
-    border: 1.5px solid #000;
+    border: 1px solid #000;
 }
 
 .carousel-outer {
