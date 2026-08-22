@@ -248,20 +248,21 @@ vertical-align: top;
 ITEM
 -------------------------------------------*/
 #item {
-    max-width: 800px;
+    width: 650px;
     height: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    margin: 0 auto;
 }
 
-#item .item-text {
-    margin-left: 20px;
+.item-text {
     width: 30%;
+    margin: 0 auto;
 }
 
 .item-text li {
-    margin-bottom: 13px;
+    margin-top: 10px;
 }
 
 .item-text dd {
@@ -270,7 +271,6 @@ ITEM
 
 .item-text ul {
     width: 500px;
-    margin-left: 20px;
 }
 
 .link-text {
@@ -314,7 +314,7 @@ ITEM
 
 /*カルーセル*/
 .carousel__section img {
-    max-width: 500px;
+    width: 650px;
     height: auto;
     border: 1px solid #000;
 }
@@ -323,7 +323,7 @@ ITEM
     position: relative;
     overflow: hidden;
     width: 80%;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .carousel {
