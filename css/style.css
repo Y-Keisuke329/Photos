@@ -256,6 +256,7 @@ ITEM
 }
 
 #item .item-text {
+    margin-left: 20px;
     width: 30%;
 }
 
