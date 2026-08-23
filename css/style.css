@@ -257,21 +257,15 @@ ITEM
 }
 
 .item-text {
-    width: 30%;
+    width: 650px;
     margin: 0 auto;
-}
-
-.item-text li {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .item-text dd {
     margin-bottom: 10px;
 }
 
-.item-text ul {
-    width: 500px;
-}
 
 .link-text {
     width: 100px;
@@ -285,19 +279,18 @@ ITEM
     text-align: justify;
 }
 
-#item .item-text dl {
+.item-text dl {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
 }
 
-#item .item-text dt {
+.item-text dt {
     width: 80px;
-    margin-left: 20px;
 }
 
-#item .item-text dd {
-    width: 50%;
+.item-text dd {
+    width: 70%;
 }
 
 #item .item-img {
@@ -305,11 +298,11 @@ ITEM
 }
 
 /* グーグルマップのサイズを設定 */
-#item .item-map iframe {
+.item-map iframe {
     width: 100%;
     height: 200px;
     border: 0;
-    margin-left: 40px;
+
 }
 
 /*カルーセル*/
