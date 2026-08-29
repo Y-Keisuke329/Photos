@@ -330,13 +330,12 @@ ITEM
 
 .carousel__button {
     position: absolute;
-    top: 50%;
+    top: 47%;
     transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 300px;
     border: none;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
     font-size: 24px;
     cursor: pointer;
@@ -351,7 +350,7 @@ ITEM
 }
 
 .carousel__button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .carousel__section {
