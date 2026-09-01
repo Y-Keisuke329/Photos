@@ -473,6 +473,12 @@ SP
         width: 50%;
     }
 
+    #company .map iframe {
+        width: 50%;
+        height: 300px;
+        border: 0;
+    }
+
 
     /*-------------------------------------------
   COMPANY
