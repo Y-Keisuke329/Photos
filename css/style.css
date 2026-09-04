@@ -470,6 +470,11 @@ SP
         width: 70px;
     }
 
+    .carousel-outer {
+        width: 275px;
+        height: auto;
+    }
+
 
 
     .item-map iframe {
@@ -485,8 +490,8 @@ SP
     }
 
     .carousel__button {
-        height: 169px;
-        margin-top: -14px;
+        height: 155px;
+        margin-top: -16px;
     }
 
 
