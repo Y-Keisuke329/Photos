@@ -422,7 +422,7 @@ COMPANY
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 0;
     right: 0;
 }
@@ -433,7 +433,7 @@ COMPANY
 
 #footer .menu li {
     font-size: 0.75rem;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #footer .copyright {
