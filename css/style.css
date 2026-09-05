@@ -458,7 +458,7 @@ SP
   -------------------------------------------*/
     #item {
         flex-direction: column;
-        width: 300px;
+        width: 275px;
         height: 210px;
     }
 
@@ -474,6 +474,7 @@ SP
         width: 275px;
         height: auto;
     }
+
 
 
 
