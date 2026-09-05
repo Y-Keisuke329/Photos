@@ -456,9 +456,20 @@ SP
     /*-------------------------------------------
   ITEM
   -------------------------------------------*/
+    .wrapper {
+        width: 100%;
+        max-width: 900px;
+        padding: 0 0px;
+    }
+
+    .content {
+        padding-top: 120px;
+        padding-bottom: 160px;
+    }
+
     #item {
         flex-direction: column;
-        width: 275px;
+        width: 100%;
         height: 210px;
     }
 
@@ -471,12 +482,9 @@ SP
     }
 
     .carousel-outer {
-        width: 275px;
+        width: 340px;
         height: auto;
     }
-
-
-
 
     .item-map iframe {
         width: 275px;
@@ -494,10 +502,6 @@ SP
         height: 155px;
         margin-top: -16px;
     }
-
-
-
-
 
     /*-------------------------------------------
   COMPANY
