@@ -466,6 +466,10 @@ SP
         padding-bottom: 160px;
     }
 
+    .page-title {
+        margin-left: 5px;
+    }
+
     #item {
         flex-direction: column;
         width: 100%;
