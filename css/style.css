@@ -366,9 +366,17 @@ ABOUT
     max-width: 600px;
 }
 
-#about p {
+#about dl {
     line-height: 1.9;
     margin-bottom: 30px;
+}
+
+#about dd {
+    margin-top: 10px;
+}
+
+#about dt {
+    margin-top: 5px;
 }
 
 /*-------------------------------------------
