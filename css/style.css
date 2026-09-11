@@ -363,7 +363,7 @@ ITEM
 ABOUT
 -------------------------------------------*/
 #about {
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 #about dl {
@@ -371,8 +371,9 @@ ABOUT
     margin-bottom: 30px;
 }
 
-#about dd {
+#info-me dd {
     margin-top: 10px;
+    margin-left: 150px;
 }
 
 #about dt {
