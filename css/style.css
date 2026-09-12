@@ -366,27 +366,8 @@ ABOUT
     max-width: 1000px;
 }
 
-#about dl {
-    line-height: 1.9;
-    margin-bottom: 30px;
-}
-
-.icon {
-    display: inline-block;
-}
-
-
-
-
-#info-me img {
+#about img {
     width: 100px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-#about dt {
-    margin-top: 5px;
 }
 
 /*-------------------------------------------
