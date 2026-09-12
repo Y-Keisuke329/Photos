@@ -363,12 +363,15 @@ ITEM
 ABOUT
 -------------------------------------------*/
 #about {
-    max-width: 1000px;
+    max-width: 100%;
+}
+
+#about dl {
+    max-width: 100%;
 }
 
 #about img {
     width: 100px;
-    margin: 0 auto;
 }
 
 #about
