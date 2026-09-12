@@ -371,6 +371,11 @@ ABOUT
     margin-bottom: 30px;
 }
 
+.icon {
+    display: inline-block;
+}
+
+
 
 
 #info-me img {
