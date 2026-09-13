@@ -364,17 +364,54 @@ ABOUT
 -------------------------------------------*/
 #about {
     max-width: 100%;
+    height: auto;
+    max-width: 0 auto;
 }
 
 #about dl {
-    max-width: 100%;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #about img {
     width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-#about
+#about dt {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#about dt.icon-title {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+#about dt.about-site {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2.5px solid#339900;
+}
+
+#about dd {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#about dd.profile {
+    width: 700px;
+    margin: 0 auto;
+}
 
 /*-------------------------------------------
 COMPANY
