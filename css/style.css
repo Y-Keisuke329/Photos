@@ -509,7 +509,14 @@ SP
   -------------------------------------------*/
     .wrapper {
         width: 100%;
-        padding: 5 5px;
+        padding: 0 25px;
+    }
+
+    .item-content-wrapper {
+        width: 100%;
+        padding: 0 0px;
+        padding-top: 120px;
+        padding-bottom: 160px;
     }
 
     .content {
@@ -542,15 +549,17 @@ SP
     .carousel-outer {
         width: 100%;
         height: auto;
+
     }
 
     .carousel__section {
+        width: 100%;
         height: auto;
     }
 
     .carousel__button {
-        height: 192px;
-        margin-top: -16px;
+        height: 100px;
+        margin-top: -10px;
     }
 
     .item-map iframe {
