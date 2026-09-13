@@ -412,12 +412,14 @@ h1.page-title {
     width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
+    height: aut0;
 }
 
 #about dd.profile {
-    width: 700px;
+    width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
+    height: auto;
 }
 
 /*-------------------------------------------
@@ -507,7 +509,7 @@ SP
   -------------------------------------------*/
     .wrapper {
         width: 100%;
-        padding: 0 0px;
+        padding: 5 5px;
     }
 
     .content {
@@ -517,6 +519,10 @@ SP
 
     .page-title {
         margin-left: 5px;
+    }
+
+    #about dl {
+        max-width: 100%;
     }
 
     #item {
