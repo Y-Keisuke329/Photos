@@ -362,6 +362,12 @@ ITEM
 /*-------------------------------------------
 ABOUT
 -------------------------------------------*/
+h1.page-title {
+    width: fit-content;
+    font-size: 25px;
+    border-bottom: 2px solid#339900;
+}
+
 #about {
     max-width: 100%;
     height: auto;
@@ -391,7 +397,7 @@ ABOUT
 #about dt.icon-title {
     width: fit-content;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #about dt.about-site {
@@ -411,6 +417,7 @@ ABOUT
 #about dd.profile {
     width: 700px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 /*-------------------------------------------
