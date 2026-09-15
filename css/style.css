@@ -329,6 +329,10 @@ ITEM
     /*0.5秒かけて次の画像*/
 }
 
+p.carousel-text {
+    width: fit-content;
+}
+
 .carousel__button {
     position: absolute;
     top: 47%;
@@ -540,6 +544,7 @@ SP
 
     .item-text dl {
         width: 250px;
+        margin-left: 5px;
     }
 
     .item-text dt {
@@ -555,6 +560,11 @@ SP
     .carousel__section {
         width: 100%;
         height: auto;
+    }
+
+    p.carousel-text {
+        margin-left: 5px;
+        width: fit-content;
     }
 
     .carousel__button {
