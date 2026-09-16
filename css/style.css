@@ -351,6 +351,7 @@ p.carousel-text {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .carousel__button-left {
