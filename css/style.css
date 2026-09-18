@@ -381,12 +381,6 @@ h1.page-title {
 }
 
 #about {
-    max-width: 100%;
-    height: auto;
-    max-width: 0 auto;
-}
-
-#about dl {
     max-width: 70%;
     height: auto;
     margin: 0 auto;
@@ -399,20 +393,20 @@ h1.page-title {
     margin-top: 20px;
 }
 
-#about dt {
+#about p {
     width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
     font-size: 15px;
 }
 
-#about dt.icon-title {
+#about p.icon-title {
     width: fit-content;
     margin: 0 auto;
     font-size: 20px;
 }
 
-#about dt.about-site {
+#about h2.about-site {
     width: fit-content;
     margin: 0 auto;
     font-size: 20px;
@@ -420,14 +414,7 @@ h1.page-title {
     border-bottom: 2.5px solid#339900;
 }
 
-#about dd {
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: aut0;
-}
-
-#about dd.profile {
+#about p {
     width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
