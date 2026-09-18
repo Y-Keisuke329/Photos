@@ -263,6 +263,13 @@ ITEM
     padding-bottom: 160px;
 }
 
+h1.page-title {
+    width: fit-content;
+    font-size: 25px;
+    border-bottom: 2px solid#339900;
+    margin-left: 40px;
+}
+
 .item-text {
     width: 650px;
     margin: 0 auto;
@@ -374,11 +381,7 @@ p.carousel-text {
 /*-------------------------------------------
 ABOUT
 -------------------------------------------*/
-h1.page-title {
-    width: fit-content;
-    font-size: 25px;
-    border-bottom: 2px solid#339900;
-}
+
 
 #about {
     max-width: 70%;
@@ -538,8 +541,8 @@ SP
     }
 
     .item-text dl {
-        width: 250px;
-        margin-left: 5px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .item-text dt {
