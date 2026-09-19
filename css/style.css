@@ -547,6 +547,10 @@ SP
         max-width: 100%;
     }
 
+    #about {
+        max-width: 80%;
+    }
+
     #item {
         flex-direction: column;
         width: 100%;
