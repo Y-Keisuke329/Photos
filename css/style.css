@@ -304,8 +304,9 @@ h1.page-title {
 }
 
 .item-text dl {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    /* dt列90px、dd列は残り全部 */
     width: 300px;
 }
 
@@ -316,6 +317,7 @@ h1.page-title {
 
 .item-text dd {
     width: 70%;
+    margin-left: 0;
 }
 
 #item .item-img {
