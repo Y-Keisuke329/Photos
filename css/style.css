@@ -212,6 +212,13 @@ TOP、PRODUCTS
     gap: 35px;
 }
 
+h1.page-title {
+    width: fit-content;
+    font-size: 25px;
+    border-bottom: 2px solid#339900;
+    margin-left: 30px;
+}
+
 /*
 vertical-align: top;
 画像の下にできる隙間を消す
@@ -267,7 +274,7 @@ h1.page-title {
     width: fit-content;
     font-size: 25px;
     border-bottom: 2px solid#339900;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .item-text {
