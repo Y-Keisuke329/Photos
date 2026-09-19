@@ -527,12 +527,7 @@ SP
         padding: 0 25px;
     }
 
-    .item-content-wrapper {
-        width: 100%;
-        padding: 0 0px;
-        padding-top: 120px;
-        padding-bottom: 160px;
-    }
+
 
     .content {
         padding-top: 120px;
@@ -558,18 +553,21 @@ SP
     }
 
     .item-text dl {
-        width: 100%;
+        width: fit-content;
         margin: 0 auto;
     }
 
-    .item-text dt {
-        width: 70px;
+    .item-text dt {}
+
+    .item-text dd {
+        width: fit-content;
     }
 
     .carousel-outer {
-        width: 100%;
-        height: auto;
-
+        width: 97vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        height: fit-content;
     }
 
     .carousel__section {
@@ -578,7 +576,7 @@ SP
     }
 
     p.carousel-text {
-        margin-left: 5px;
+        margin: 0 auto;
         width: fit-content;
     }
 
@@ -587,11 +585,16 @@ SP
         margin-top: -10px;
     }
 
+    .item-map {
+        width: 97vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        height: 200px;
+    }
+
     .item-map iframe {
         width: 100%;
         height: 200px;
-        border: 0;
-        margin-top: 10px;
     }
 
     .item-text {
