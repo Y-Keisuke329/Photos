@@ -555,8 +555,6 @@ SP
         margin: 0 auto;
     }
 
-    .item-text dt {}
-
     .item-text dd {
         width: fit-content;
     }
