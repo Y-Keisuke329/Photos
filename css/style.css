@@ -407,6 +407,10 @@ ABOUT
     margin-top: 20px;
 }
 
+a.link-text {
+    width: fit-content;
+}
+
 #about p {
     width: fit-content;
     margin: 0 auto;
@@ -493,6 +497,11 @@ COMPANY
 
 #footer .menu {
     display: flex;
+    width: fit-content;
+}
+
+#footer .menu a {
+    margin-left: 20px;
 }
 
 #footer .menu li {
