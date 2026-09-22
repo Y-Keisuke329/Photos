@@ -282,7 +282,7 @@ h1.page-title {
     width: 650px;
     height: fit-content;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .item-text dd {
@@ -333,10 +333,9 @@ h1.page-title {
 }
 
 /*カルーセル*/
-.carousel__section img {
+.carousel__section {
     width: 100%;
-    height: auto;
-    border: 1px solid #000;
+    height: 460px;
 }
 
 .carousel-outer {
@@ -344,7 +343,7 @@ h1.page-title {
     overflow: hidden;
     width: 100%;
     max-width: 650px;
-    height: 400px;
+    height: fit-content;
 }
 
 .carousel {
