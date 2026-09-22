@@ -3,24 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>プロダクトタイトル　｜　Furniture Design</title>
+    <title>シカ in Nara Park | Photo Library</title>
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
 </head>
 
 <body>
     <header id="header" class="wrapper">
         <div class="site-title">
-            <a href="index.html"><img src="img/logo.svg" alt="Furniture Design"></a>
+            <a href="index.html"><img src="img/file (1).svg" alt="PHOTOS"></a>
         </div>
         <nav id="navi">
             <ul class="nav-menu">
-                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="products.html">PHOTOS</a></li>
                 <li><a href="about.html">ABOUT</a></li>
 
                 <li><a href=" mailto:xxxxx@xxx.xxx?subject=お問い合わせ">CONTACT</a></li>
@@ -33,45 +33,55 @@
         <div id="mask"></div>
     </header>
     <main>
-        <div class="content wrapper">
-            <h1 class="page-title">プロダクトタイトル</h1>
+        <div class="item content wrapper">
+            <h1 class="page-title">シカ in Nara Park</h1>
             <div id="item">
-                <div class="item-img">
-                    <img src="img/item2.jpg" alt="">
-                </div>
-                <div class="item-text">
-                    <p>
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
-                    <p>
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
-                    <p>&yen;99,999 +tax</p>
-                    <dl>
-                        <dt>SIZE：</dt>
-                        <dd>W999 × D999 × H999</dd>
-                        <dt>COLOR：</dt>
-                        <dd>テキスト</dd>
-                        <dt>MATERIAL：</dt>
-                        <dd>テキストテキストテキスト</dd>
-                    </dl>
+                <div class="carousel-outer">
+                    <div class="carousel">
+                        <div class="carousel__section">
+                            <img src="img/item1/DSCF1226.JPG" alt="">
+                            <p class="carousel-text">1枚目 鹿がリラックスしていてなかなか撮ることができない1枚。</p>
+                        </div>
+                        <div class="carousel__section">
+                            <img src="img/item1/DSCF1224.JPG" alt="">
+                            <p class="carousel-text">2枚目 角が短めの個体。おそらく昼寝中。</p>
+                        </div>
+                        <div class="carousel__section">
+                            <img src="img/item1/DSCF1270.JPG" alt="">
+                            <p class="carousel-text">3枚目 小柄な鹿が草を食べていて生活感が強い1枚。</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel__button carousel__button-left">&#10094;</button>
+                    <button class="carousel__button carousel__button-right">&#10095;</button>
                 </div>
             </div>
-            <a class="link-text" href="products.html">Back To Products</a>
+            <div class="item-text">
+                <dl>
+                    <dt>DATE：</dt>
+                    <dd>2026 1/1 12:41</dd>
+                    <dt>CAMERA：</dt>
+                    <dd>FUJIFILM FinePix Z950EXR</dd>
+                    <dt>撮影場所：</dt>
+                    <dd>奈良県奈良市奈良公園</dd>
+                </dl>
+                <div class="item-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2120.671398735596!2d135.8344924!3d34.6835674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001398f6ac9e6ab%3A0x622536af2c182bf1!2z55m75aSn6Lev5ZyS5Zyw!5e0!3m2!1sja!2sjp!4v1785501060547!5m2!1sja!2sjp"></iframe>
+                </div>
+            </div>
+            <a class="link-text" href="products.html">Back To Photos</a>
         </div>
     </main>
     <footer id="footer" class="wrapper">
         <ul class="menu">
-            <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
-            <li><a href="https://twitter.com/" target="_blank">TWITTER</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+            <li><a href="products.html">PHOTOS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
         </ul>
-        <p class="copyright">&copy; Furniture Design</p>
+        <p class="copyright">&copy; Photo Library</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
