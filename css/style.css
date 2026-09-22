@@ -282,7 +282,7 @@ h1.page-title {
     width: 650px;
     height: fit-content;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .item-text dd {
@@ -307,7 +307,7 @@ h1.page-title {
     display: grid;
     grid-template-columns: 90px 1fr;
     /* dt列90px、dd列は残り全部 */
-    width: 300px;
+    width: 100%;
 }
 
 .item-text dt {
@@ -335,7 +335,7 @@ h1.page-title {
 /*カルーセル*/
 .carousel__section {
     width: 100%;
-    height: 460px;
+    height: auto;
 }
 
 .carousel-outer {
@@ -343,7 +343,7 @@ h1.page-title {
     overflow: hidden;
     width: 100%;
     max-width: 650px;
-    height: fit-content;
+    height: 390px;
 }
 
 .carousel {
