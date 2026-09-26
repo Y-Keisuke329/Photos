@@ -336,6 +336,7 @@ h1.page-title {
 .carousel__section {
     width: 100%;
     height: auto;
+    flex: 0 0 100%;
 }
 
 .carousel-outer {
@@ -383,10 +384,7 @@ p.carousel-text {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.carousel__section {
-    flex: 0 0 100%;
-    width: 100%;
-}
+
 
 /*-------------------------------------------
 ABOUT
