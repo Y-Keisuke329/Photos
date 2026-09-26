@@ -335,10 +335,10 @@ h1.page-title {
 /*カルーセル*/
 .carousel__section {
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
-.carousel-outer-landscape {
+.carousel-outer {
     position: relative;
     overflow: hidden;
     width: 100%;
