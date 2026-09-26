@@ -350,9 +350,9 @@ h1.page-title {
 .carousel-outer-portrait {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    max-width: 400px;
-    height: 620px;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
 }
 
 .carousel {
@@ -583,6 +583,13 @@ SP
         height: fit-content;
     }
 
+    .carousel-outer-portrait {
+        position: relative;
+        overflow: hidden;
+        width: 60%;
+        margin: 0 auto;
+        height: auto;
+    }
 
     .carousel__section {
         width: 100%;
