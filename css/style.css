@@ -256,7 +256,7 @@ ITEM
 -------------------------------------------*/
 #item {
     width: 650px;
-    height: 370px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -345,6 +345,14 @@ h1.page-title {
     width: 100%;
     max-width: 650px;
     height: 390px;
+}
+
+.carousel-outer-portrait {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 650px;
+    height: 1000px;
 }
 
 .carousel {
