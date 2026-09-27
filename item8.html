@@ -3,24 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>プロダクトタイトル　｜　Furniture Design</title>
-    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキスト">
+    <title>姫路城 | Photo Library</title>
+    <meta name="Pardescription" content="テキストテキストテキストテキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
 </head>
 
 <body>
     <header id="header" class="wrapper">
         <div class="site-title">
-            <a href="index.html"><img src="img/logo.svg" alt="Furniture Design"></a>
+            <a href="index.html"><img src="img/file (1).svg" alt="PHOTOS"></a>
         </div>
         <nav id="navi">
             <ul class="nav-menu">
-                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="products.html">PHOTOS</a></li>
                 <li><a href="about.html">ABOUT</a></li>
 
                 <li><a href=" mailto:xxxxx@xxx.xxx?subject=お問い合わせ">CONTACT</a></li>
@@ -33,45 +33,57 @@
         <div id="mask"></div>
     </header>
     <main>
-        <div class="content wrapper">
-            <h1 class="page-title">プロダクトタイトル</h1>
+        <div class="item content wrapper">
+            <h1 class="page-title">姫路城</h1>
             <div id="item">
-                <div class="item-img">
-                    <img src="img/item8.jpg" alt="">
-                </div>
-                <div class="item-text">
-                    <p>
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
-                    <p>
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
-                    <p>&yen;99,999 +tax</p>
-                    <dl>
-                        <dt>SIZE：</dt>
-                        <dd>W999 × D999 × H999</dd>
-                        <dt>COLOR：</dt>
-                        <dd>テキスト</dd>
-                        <dt>MATERIAL：</dt>
-                        <dd>テキストテキストテキスト</dd>
-                    </dl>
+                <div class="carousel-outer">
+                    <div class="carousel">
+                        <div class="carousel__section">
+                            <img src="img/item8/DSCF1652.JPG" alt="">
+                            <p class="carousel-text">1枚目 "道門"の文字に目が行くようなっている。</p>
+                        </div>
+                        <div class="carousel__section">
+                            <img src="img/item8/DSCF1648.JPG" alt="">
+                            <p class="carousel-text">2枚目 提灯の生の温かさが見えてくる。</p>
+                        </div>
+                        <div class="carousel__section">
+                            <img src="img/item8/DSCF1630.JPG" alt="">
+                            <p class="carousel-text">3枚目 後ろの提灯がぼけていて良い。</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel__button carousel__button-left">&#10094;</button>
+                    <button class="carousel__button carousel__button-right">&#10095;</button>
                 </div>
             </div>
-            <a class="link-text" href="products.html">Back To Products</a>
+            <div class="item-text">
+                <dl>
+                    <dt>DATE：</dt>
+                    <dd>2026 8/14</dd>
+                    <dt>CAMERA：</dt>
+                    <dd>FUJIFILM FinePix Z950EXR</dd>
+                    <dt>撮影場所：</dt>
+                    <dd>姫路城</dd>
+                </dl>
+                <h3>コメント</h3>
+                <p>初めてのモノクロ撮影だったが文字に目が行く写真や構図に集中できてよかった。</p>
+                <div class="item-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.6674294078657!2d134.69132977440563!3d34.83945337575754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e003a23324b3%3A0x7a4f8c2f6eba81b1!2z5aer6Lev5Z-O!5e0!3m2!1sja!2sjp!4v1790485582919!5m2!1sja!2sjp"></iframe>
+                </div>
+            </div>
+            <a class="link-text" href="products.html">Back To Photos</a>
         </div>
     </main>
     <footer id="footer" class="wrapper">
         <ul class="menu">
-            <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
-            <li><a href="https://twitter.com/" target="_blank">TWITTER</a></li>
-            <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+            <li><a href="products.html">PHOTOS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
         </ul>
-        <p class="copyright">&copy; Furniture Design</p>
+        <p class="copyright">&copy; Photo Library</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
