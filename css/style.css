@@ -531,6 +531,7 @@ SP
 
     a.link-text {
         width: fit-content;
+        margin-top: 100px;
     }
 
     /*-------------------------------------------
