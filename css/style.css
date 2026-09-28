@@ -545,8 +545,11 @@ SP
 
 
 
-    .page-title {
-        margin-left: 5px;
+    h1.page-title {
+        margin-bottom: 20px;
+
+        font-size: clamp(20px, 4vw, 48px);
+
     }
 
     #about dl {
