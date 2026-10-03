@@ -61,7 +61,7 @@ li {
     margin-bottom: 30px;
 }
 
-#top .btn {
+#top .link-text {
     width: 160px;
     height: 50px;
     line-height: 3.5;
@@ -73,7 +73,7 @@ li {
     position: relative;
 }
 
-#top .btn span {
+#top .link-text span {
     position: relative;
     display: block;
     width: 100%;
@@ -81,13 +81,13 @@ li {
 }
 
 /*
-.btn::before 右の赤線
-.btn::after 下の赤線
-.btn span::before 左の赤線
-.btn span::after 上の赤線
+.link-text::before 右の赤線
+.link-text::after 下の赤線
+.link-text span::before 左の赤線
+.link-text span::after 上の赤線
 */
-#top .btn::before,
-#top .btn::after {
+#top .link-text::before,
+#top .link-text::after {
     position: absolute;
     content: "";
     right: 0;
@@ -96,14 +96,14 @@ li {
     transition: all 0.3s ease;
 }
 
-#top .btn::before,
-#top .btn span::before {
+#top .link-text::before,
+#top .link-text span::before {
     width: 2px;
     height: 50%;
 }
 
-#top .btn::after,
-#top.btn span::before {
+#top .link-text::after,
+#top.link-text span::before {
     width: 20%;
     height: 2px;
 }
@@ -112,8 +112,8 @@ li {
 ホバー時の縦の動作
 右の赤線と左の赤線の高さを100%にする
 */
-#top .btn:hover::before,
-#top .btn span:hover::before {
+#top .link-text:hover::before,
+#top .link-text span:hover::before {
     height: 100%;
 }
 
@@ -121,8 +121,8 @@ li {
 ホバー時の横の動作
 下の赤線と上の赤線の横幅を100%にする
 */
-#top .btn:hover::after,
-#top .btn span:hover::after {
+#top .link-text:hover::after,
+#top .link-text span:hover::after {
     width: 100%;
 }
 
