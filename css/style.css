@@ -93,6 +93,28 @@ li {
     transition: all 0.3s ease;
 }
 
+/* 右線（a::before）を右に40pxずらす */
+.link-text::before {
+    transform: translateX(40px);
+}
+
+/* 下線（a::after）を右に40pxずらす */
+.link-text::after {
+
+    transform: translateX(40px);
+}
+
+/* 左線（span::before）を左に40pxずらす */
+.link-text span::before {
+    transform: translateX(-40px);
+}
+
+/* 上線（span::after）を左に40pxずらす */
+.link-text span::after {
+
+    transform: translateX(-40px);
+}
+
 /* 右下の線（aタグ側） */
 .link-text::before,
 .link-text::after {
@@ -130,7 +152,7 @@ li {
 /* ホバー時：横線を伸ばす */
 .link-text:hover::after,
 .link-text:hover span::after {
-    width: 100%;
+    width: 215%;
 }
 
 /*-------------------------------------------
