@@ -152,7 +152,7 @@ li {
 /* ホバー時：横線を伸ばす */
 .link-text:hover::after,
 .link-text:hover span::after {
-    width: 215%;
+    width: calc(100% + 80px);
 }
 
 /*-------------------------------------------
