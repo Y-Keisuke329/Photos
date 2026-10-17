@@ -89,7 +89,7 @@ li {
 .link-text span::after {
     position: absolute;
     content: "";
-    background: #e03131;
+    background: #339900;
     transition: all 0.3s ease;
 }
 
